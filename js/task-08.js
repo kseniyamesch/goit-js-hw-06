@@ -15,5 +15,5 @@ const passwordVal = event.currentTarget.elements.password.value;
 else {
     const formData = new FormData(event.currentTarget);
     console.log(formData);
-
+form.reset();
 }}

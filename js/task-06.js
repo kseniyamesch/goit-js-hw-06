@@ -10,7 +10,7 @@ function onInputValidation(event) {
   this.classList.add('invalid');
   this.classList.remove('valid');
 
-  if (valueLength == requiredLength) {
+  if (Number(valueLength) === Number(requiredLength)) {
     this.classList.add('valid');
     this.classList.remove('invalid');
   }
